@@ -7,10 +7,78 @@ const pages = [
     path: "/",
     title: "Welcome",
     content: pageLoader(() => import("./WELCOME.md"))
-  }
+  },
+  {
+    path: "/branding",
+    title: "Branding",
+    pages: [
+      {
+        path: "/branding/logo",
+        title: "Logo",
+        content: pageLoader(() => import("./branding/LOGO.md"))
+      },
+      {
+        path: "/branding/colors",
+        title: "Colors",
+        content: pageLoader(() => import("./branding/COLORS.md"))
+      },
+      {
+        path: "/branding/typography",
+        title: "Typography",
+        content: pageLoader(() => import("./branding/TYPOGRAPHY.md"))
+      },
+      {
+        path: "/branding/icons",
+        title: "Icons",
+        content: pageLoader(() => import("./branding/ICONS.md"))
+      }
+    ]
+  },
+  {
+    path: "/components",
+    title: "Components",
+    pages: [
+      {
+        path: "/components/buttons",
+        title: "Buttons",
+        content: pageLoader(() => import("./components/BUTTONS.md"))
+      },
+      {
+        path: "/components/headers",
+        title: "Headers",
+        content: pageLoader(() => import("./components/HEADERS.md"))
+      },
+      {
+        path: "/components/notifications",
+        title: "Messages & Notifications",
+        content: pageLoader(() => import("./components/NOTIFICATIONS.md"))
+      },
+      {
+        path: "/components/pickers",
+        title: "Pickers",
+        content: pageLoader(() => import("./components/PICKERS.md"))
+      },
+      {
+        path: "/components/textfields",
+        title: "Textfields",
+        content: pageLoader(() => import("./components/TEXTFIELDS.md"))
+      }
+    ]
+  },
+  {
+    path: "/resources",
+    title: "Resources",
+    pages: [
+      {
+        path: "/resources/sketch",
+        title: "Sketch File",
+        content: pageLoader(() => import("./resources/SKETCH.md"))
+      }
+    ]
+  },
 ];
 
 ReactDOM.render(
-  <Catalog title="Catalog" pages={pages} />,
+  <Catalog title="Bookit Styleguide" pages={pages} />,
   document.getElementById("catalog")
 );

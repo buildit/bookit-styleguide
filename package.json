@@ -2,7 +2,7 @@
   "name": "bookit-styleguide",
   "description": "",
   "dependencies": {
-    "catalog": "^3.0.0-rc.4",
+    "catalog": "^3.2.3",
     "react": "^16.2.0",
     "react-dom": "^16.2.0"
   },

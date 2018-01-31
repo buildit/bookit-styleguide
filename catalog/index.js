@@ -41,6 +41,7 @@ const pages = [
       {
         path: "/components/buttons",
         title: "Buttons",
+        styles: ['styles/css/foo.css'],
         content: pageLoader(() => import("./components/BUTTONS.md"))
       },
       {

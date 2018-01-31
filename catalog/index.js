@@ -2,6 +2,9 @@ import React from "react";
 import ReactDOM from "react-dom";
 import { Catalog, pageLoader } from "catalog";
 
+const globalCSS = [
+  'styles/css/global/global.css'
+];
 const pages = [
   {
     path: "/",
@@ -80,6 +83,6 @@ const pages = [
 ];
 
 ReactDOM.render(
-  <Catalog title="Bookit Styleguide" pages={pages} />,
+  <Catalog title="Bookit Styleguide" pages={pages} styles={globalCSS}/>,
   document.getElementById("catalog")
 );

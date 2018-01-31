@@ -9,11 +9,11 @@
   "scripts": {
     "catalog-start": "catalog start",
     "catalog-build": "catalog build",
-    "dev": "npm run build:css && parallelshell 'npm run watch:css' 'npm run catalog-start'" ,
-    "watch:css": "onchange 'catalog/static/styles/scss/*.scss' -- npm run build:css",
+    "dev": "npm run build:css && parallelshell 'npm run watch:css' 'npm run catalog-start'",
+    "watch:css": "onchange 'catalog/static/styles/**/*.scss' -- npm run build:css",
     "build:css": "npm run scss && npm run autoprefixer",
     "scss": "node-sass --output-style compressed -o catalog/static/styles/css catalog/static/styles/scss",
-    "autoprefixer": "postcss -u autoprefixer -r catalog/static/styles/css/*"
+    "autoprefixer": "postcss -u autoprefixer -r catalog/static/styles/css/*.css"
   },
   "devDependencies": {
     "autoprefixer": "^7.2.5",

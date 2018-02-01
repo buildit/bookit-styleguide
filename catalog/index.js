@@ -43,13 +43,14 @@ const pages = [
     pages: [
       {
         path: "/components/buttons",
-        title: "Buttons",
-        styles: ['styles/css/foo.css'],
+        title: "Button",
+        styles: ['styles/css/buttons.css'],
+        imports: {Button: require('./react/button/Button.jsx')},
         content: pageLoader(() => import("./components/BUTTONS.md"))
       },
       {
         path: "/components/headers",
-        title: "Headers",
+        title: "Header",
         content: pageLoader(() => import("./components/HEADERS.md"))
       },
       {
@@ -59,12 +60,12 @@ const pages = [
       },
       {
         path: "/components/pickers",
-        title: "Pickers",
+        title: "Picker",
         content: pageLoader(() => import("./components/PICKERS.md"))
       },
       {
         path: "/components/textfields",
-        title: "Textfields",
+        title: "Textfield",
         content: pageLoader(() => import("./components/TEXTFIELDS.md"))
       }
     ]

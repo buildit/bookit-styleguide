@@ -1,6 +1,4 @@
-# Colors
-
-
+# Color Palette
 
 ```color
 span: 3

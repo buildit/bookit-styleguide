@@ -1,4 +1,4 @@
-# Icons
+# Icons & Downloads
 
 ```image
 plain: true

@@ -1,1 +1,6 @@
-# Textfields
+# Inputs
+
+
+```react 
+<StandardInput class="input"></StandardInput>
+```

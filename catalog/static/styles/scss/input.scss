@@ -1,8 +1,18 @@
-.standardInput{
-    input{
-    border: 1px solid #e6e8ed;
-    border-radius: 4px;
-    font-size: 50px;
-    color: red;
+.standardInput {
+    input {
+        border: 1px solid #e6e8ed;
+        border-radius: 4px;
+        font-size: 14px;
+        padding: 10px;
+                font-family: Helvetica Neue;
+
+    }
+
+    label {
+        display: block;
+        margin: 10px 0;
+        font-size: 14px;
+        color: #c5c5c5;
+        font-family: Helvetica Neue;
     }
 }

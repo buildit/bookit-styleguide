@@ -1,20 +1,49 @@
 //buttons
+.big-booking-btn {
+    background-color: #4594fd;
+    border: none;
+    border-radius: 2px;
+    color: white;
+    cursor: pointer;
+    font-size: 18px;
+    width: 60%;
+    height: 100px;
+    text-align: center;
+}
 
-.bigButton {
+.big-viewbookings-btn {
+    background-color: #013f93;
+    border: none;
+    border-radius: 2px;
+    color: white;
+    cursor: pointer;
+    font-size: 18px;
+    width: 60%;
+    height: 100px;
+    text-align: center;
+}
+
+.make-booking-btn {
+    background-color: #4594fd;
+    border-radius: 2px;
+    border: none;
+    color: #ffffff;
+    cursor: pointer;
+    font-size: 18px;
+    line-height: 18px;
+    margin-top: 20px;
+    padding: 20px 0px;
+    width: 60%;
+}
+
+.cancel-booking-btn {
     color: white;
     background-color: #e8324e;
     border: none;
     font-size: 18px;
     cursor: pointer;
     border-radius: 2px;
-    height: 60px;
-    align-self: center;
-    
-    // @include mobile {
-    //     width: 100%;
-    // }
-    
-    // @include desktop{
-    //     width: 45%;
-    // }
+    margin-top: 20px;
+    padding: 20px 0px;
+    width: 60%;
 }

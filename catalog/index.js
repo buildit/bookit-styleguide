@@ -5,6 +5,11 @@ import { Catalog, pageLoader } from "catalog";
 const globalCSS = [
   'styles/css/global/global.css'
 ];
+
+const theme = {
+  bgLight: '#fbfbfb',
+  bgDark: '#3a3a3a',
+}
 const pages = [
   {
     path: "/",
@@ -86,6 +91,6 @@ const pages = [
 ];
 
 ReactDOM.render(
-  <Catalog title="Bookit Styleguide" pages={pages} styles={globalCSS}/>,
+  <Catalog title="Bookit Styleguide" pages={pages} styles={globalCSS} theme={theme}/>,
   document.getElementById("catalog")
 );

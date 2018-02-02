@@ -67,7 +67,7 @@ const pages = [
         path: "/components/textfields",
         title: "Textfield",
         styles: ['styles/css/input.css'],
-        imports: {StandardInput: require('./react/input/input.jsx')},
+        imports: {StandardInput: require('./react/input/Input.jsx')},
         content: pageLoader(() => import("./components/TEXTFIELDS.md"))
       }
     ]

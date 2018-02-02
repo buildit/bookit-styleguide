@@ -2,5 +2,5 @@
 
 
 ```react 
-<StandardInput class="input"></StandardInput>
+<StandardInput></StandardInput>
 ```

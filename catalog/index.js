@@ -80,7 +80,11 @@ const pages = [
       },
             {
                 path: "/components/notifications",
-                title: "Messages & Notifications",
+                title: "Notifications",
+                styles: ['styles.css/notifications.css'],
+                imports: {
+                    errorInput: require('./react/notifications/input-error.jsx')
+                },                
                 content: pageLoader(() =>
                     import ("./components/NOTIFICATIONS.md"))
       },

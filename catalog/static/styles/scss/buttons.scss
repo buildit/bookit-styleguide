@@ -1,4 +1,6 @@
 //buttons
+
+
 .big-booking-btn {
     background-color: #4594fd;
     border: none;
@@ -10,6 +12,8 @@
     height: 100px;
     text-align: center;
     font-family: Helvetica Neue;
+        margin-left: 20px;
+    margin-top: 20px;
 }
 
 .big-viewbookings-btn {
@@ -23,6 +27,9 @@
     height: 100px;
     text-align: center;
     font-family: Helvetica Neue;
+    margin-left: 20px;
+    margin-top: 20px;
+    align-self:center;
 }
 
 .make-booking-btn {
@@ -34,6 +41,7 @@
     font-size: 18px;
     line-height: 18px;
     margin-top: 20px;
+    margin-left: 20px;
     padding: 20px 0px;
     width: 60%;
     font-family: Helvetica Neue;
@@ -47,6 +55,7 @@
     cursor: pointer;
     border-radius: 2px;
     margin-top: 20px;
+    margin-left: 20px;
     padding: 20px 0px;
     width: 60%;
     font-family: Helvetica Neue;

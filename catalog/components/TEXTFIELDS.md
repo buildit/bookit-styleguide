@@ -5,7 +5,7 @@ The disabled state is meant to be used on the Manage a Booking form.
 
 ```react 
 
-light: true
+plain: true
 ---
 <StandardInput></StandardInput>
 ```

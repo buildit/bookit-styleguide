@@ -12,9 +12,13 @@ const globalCSS = [
 const theme = {
     bgLight: '#fbfbfb',
     bgDark: '#3a3a3a',
-    fontFamily: "'Helvetica Neue', sans-serif",
-    fontHeading: "'Helvetica Neue', sans-serif",
-    fontMono: "'Helvetica Neue', monospace",
+    fontFamily: "'Avenir', sans-serif",
+    fontHeading: "'Bebas Neue', sans-serif",
+    fontMono: "'Brandon Grotesque', monospace",
+    background: '#F9F9F9',
+    textColor: '#333333',
+    codeColor: '#00263E',
+    linkColor: '#4594fd',
 }
 
 const pages = [

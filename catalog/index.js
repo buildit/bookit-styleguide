@@ -19,6 +19,7 @@ const theme = {
     textColor: '#333333',
     codeColor: '#00263E',
     linkColor: '#4594fd',
+
 }
 
 const pages = [
@@ -80,11 +81,11 @@ const pages = [
       },
             {
                 path: "/components/notifications",
-                title: "Notifications",
-                styles: ['styles.css/notifications.css'],
+                title: "Notifications & Error Messages",
+                styles: ['styles/css/notifications.css'],
                 imports: {
-                    errorInput: require('./react/notifications/input-error.jsx')
-                },                
+                    InputError: require('./react/notifications/input-error.jsx')
+                },
                 content: pageLoader(() =>
                     import ("./components/NOTIFICATIONS.md"))
       },

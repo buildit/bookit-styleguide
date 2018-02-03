@@ -1,11 +1,8 @@
-# Notifications
+# Notifications & Error Messages
 
-
-Notifs 
-
+**Input Error Message**
 ```react 
-
 plain: true
 ---
-<errorInput></errorInput>
+<InputError></InputError>
 ```

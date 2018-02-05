@@ -92,6 +92,9 @@ const pages = [
             {
                 path: "/components/pickers",
                 title: "Picker",
+                imports: {
+                    DatePicker: require('./react/picker/datepicker/DatePicker.jsx')
+                },
                 content: pageLoader(() =>
                     import ("./components/PICKERS.md"))
       },

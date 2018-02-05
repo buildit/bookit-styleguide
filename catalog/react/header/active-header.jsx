@@ -9,7 +9,7 @@ const ActiveHeader = ({}) =>
             <img src={closeSrc} alt="Closing booking form and go home"/>
           </Link>
         </div>
-    
+</div>
     
     
     

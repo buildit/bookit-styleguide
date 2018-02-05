@@ -78,7 +78,7 @@ const pages = [
                 title: "Header",
                 styles: ['styles/css/header.css'],
                 imports: {
-                    InputError: require('./react/mybookings-headers/active-header.jsx')
+                    ActiveHeader: require('./react/header/ActiveHeader.jsx')
                 },
                 content: pageLoader(() =>
                     import ("./components/HEADERS.md"))

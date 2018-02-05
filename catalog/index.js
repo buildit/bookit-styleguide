@@ -76,6 +76,10 @@ const pages = [
             {
                 path: "/components/headers",
                 title: "Header",
+                styles: ['styles/css/header.css'],
+                imports: {
+                    InputError: require('./react/mybookings-headers/active-header.jsx')
+                },
                 content: pageLoader(() =>
                     import ("./components/HEADERS.md"))
       },

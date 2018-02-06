@@ -1,1 +1,4 @@
-# Pickers
+
+```react
+<DatePicker></DatePicker>
+```

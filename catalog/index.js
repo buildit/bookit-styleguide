@@ -76,6 +76,11 @@ const pages = [
             {
                 path: "/components/headers",
                 title: "Header",
+                styles: ['styles/css/header.css'],
+                imports: {
+                    ActiveHeader: require('./react/header/ActiveHeader.jsx'),
+                    InactiveHeader: require ('./react/header/InactiveHeader.jsx')
+                },
                 content: pageLoader(() =>
                     import ("./components/HEADERS.md"))
       },
@@ -92,6 +97,10 @@ const pages = [
             {
                 path: "/components/pickers",
                 title: "Picker",
+                styles: ['styles/css/date-picker.css'],
+                imports: {
+                    DatePicker: require('./react/picker/datepicker/DatePicker.jsx')
+                },
                 content: pageLoader(() =>
                     import ("./components/PICKERS.md"))
       },

@@ -4,12 +4,20 @@
 .roomSelectToggleInput{
   margin: 0 20px;
   display: flex;
-  align-items: center;
+  flex-direction: column;
+  align-items: stretch;
 
   padding-bottom: 3px;
   border-bottom: solid 1px $darkblue;
 
   cursor: pointer;
+
+  .toggle{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+  }
 
   span{
     flex: 1;

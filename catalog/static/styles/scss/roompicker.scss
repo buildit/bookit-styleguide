@@ -1,0 +1,36 @@
+//pickers styles
+@import 'global/colors';
+
+.roomSelectToggleInput{
+  margin: 0 20px;
+  display: flex;
+  align-items: center;
+
+  padding-bottom: 3px;
+  border-bottom: solid 1px $darkblue;
+
+  cursor: pointer;
+
+  span{
+    flex: 1;
+    font-size: 14px;
+      display: block;
+      color: black;
+  }
+
+  img{
+    width: 10px;
+    height: 10px;
+    margin-right: 10px;
+  } 
+    
+    label{
+        color: black;
+        margin-bottom: 20px;
+    }
+}
+
+.fieldlabel {
+    color: black;
+    font-family: Helvetica Neue;
+}

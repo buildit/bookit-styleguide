@@ -1,9 +1,9 @@
 //buttons
-
+@import 'global/colors';
 
 .big-booking-btn {
-    background-color: #4594fd;
-    border: none;
+    background-color: $blue;
+    border: none; 
     border-radius: 2px;
     color: white;
     cursor: pointer;
@@ -17,7 +17,7 @@
 }
 
 .big-viewbookings-btn {
-    background-color: #013f93;
+    background-color: $darkblue;
     border: none;
     border-radius: 2px;
     color: white;
@@ -33,7 +33,7 @@
 }
 
 .make-booking-btn {
-    background-color: #4594fd;
+    background-color: $blue;
     border-radius: 2px;
     border: none;
     color: #ffffff;
@@ -49,7 +49,7 @@
 
 .cancel-booking-btn {
     color: white;
-    background-color: #e8324e;
+    background-color: $red;
     border: none;
     font-size: 18px;
     cursor: pointer;

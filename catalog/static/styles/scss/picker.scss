@@ -1,25 +1,54 @@
 //pickers styles
 @import 'global/colors';
 
-.roomSelectToggleInput{
-  margin: 0 20px;
-  display: flex;
-  align-items: center;
+.roomSelectToggleInput {
+    margin: 0 20px;
+    display: flex;
+    align-items: center;
 
-  padding-bottom: 3px;
-  border-bottom: solid 1px $darkblue;
+    padding-bottom: 3px;
+    border-bottom: solid 1px $darkblue;
 
-  cursor: pointer;
+    cursor: pointer;
 
-  span{
-    flex: 1;
-    font-size: 14px;
-    padding-left: 10px;
-  }
+    span {
+        flex: 1;
+        font-size: 14px;
+        padding-left: 10px;
+    }
 
-  img{
-    width: 10px;
-    height: 10px;
-    margin-right: 10px;
-  }
+    img {
+        width: 10px;
+        height: 10px;
+        margin-right: 10px;
+    }
+}
+
+.timepicker-field {
+    font-family: Helvetica Neue;
+    margin-top: 10px;
+
+    label {
+        color: black;
+        font-size: 14px;
+        color: #c5c5c5;
+        margin-left: 20px;
+    }
+    
+    li {
+        font-family: Helvetica Neue;
+    }
+}
+
+.tpinput {
+    display: block;
+
+    input {
+        padding: 20px;
+        font-size: 14px;
+        margin-left: 20px;
+        margin-top: 10px;
+
+
+    }
 }

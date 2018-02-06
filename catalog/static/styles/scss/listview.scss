@@ -1,0 +1,15 @@
+@import 'global/colors';
+
+.listview-wrapper{
+    background-color: $white;
+    color: $blackish;
+    font-family: "Helvetica Neue", sans-serif;
+
+    .listview-item{
+        border-top: 1px solid $border-gray;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 10px 30px;
+    }
+}

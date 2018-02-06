@@ -92,9 +92,11 @@ const pages = [
             {
                 path: "/components/pickers",
                 title: "Picker",
-                styles: ['styles/css/datepicker.css'],
+                styles: ['styles/css/picker.css'],
                 imports: {
-                    DatePicker: require('./react/picker/datepicker/DatePicker.jsx')
+                    DatePicker: require('./react/picker/datepicker/DatePicker.jsx'),
+                    TimePicker: require('./react/picker/timepicker/TimePicker.jsx'),
+                    RoomPicker: require('./react/picker/roompicker/RoomPicker.jsx'),
                 },
                 content: pageLoader(() =>
                     import ("./components/PICKERS.md"))
@@ -108,7 +110,18 @@ const pages = [
                 },
                 content: pageLoader(() =>
                     import ("./components/TEXTFIELDS.md"))
-      }
+      },
+            {
+                path: "/components/listview",
+                title: "List View",
+                // styles: ['styles/css/input.css'],
+                imports: {
+                    ListView: require('./react/listview/ListView.jsx')
+                },
+                content: pageLoader(() =>
+                    import("./components/LISTVIEW.md")
+                )
+            }
     ]
   },
     {

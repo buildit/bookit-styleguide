@@ -25,8 +25,8 @@ const ListView = ({
     ]
 }) => (
     <div className="listview-wrapper">
-        {rooms.map(room => (
-                <div className="listview-item">
+        {rooms.map((room, index) => (
+                <div className="listview-item" key={index}>
                     <h4>{room.name}</h4>
                     {room.closed && <p>{room.reason}</p>}
                 </div>

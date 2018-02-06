@@ -7,7 +7,7 @@ const onTimeChange = (time) => {
 }
 
 const TimePickerInput = ({ }) => (
-    <div className="datepicker-field">
+    <div className="timepicker-field">
         <label>Date</label>
         <div className="fieldInput">
             <TimePicker onChange={onTimeChange} showSecond={false} allowEmpty={false} />

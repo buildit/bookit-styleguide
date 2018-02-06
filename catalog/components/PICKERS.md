@@ -14,5 +14,6 @@ plain:true
 ```react
 plain:true
 ---
-<RoomPicker />
+<RoomPicker /> 
 ```
+

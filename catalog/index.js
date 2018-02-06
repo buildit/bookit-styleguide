@@ -76,6 +76,11 @@ const pages = [
             {
                 path: "/components/headers",
                 title: "Header",
+                styles: ['styles/css/header.css'],
+                imports: {
+                    ActiveHeader: require('./react/header/ActiveHeader.jsx'),
+                    InactiveHeader: require ('./react/header/InactiveHeader.jsx')
+                },
                 content: pageLoader(() =>
                     import ("./components/HEADERS.md"))
       },

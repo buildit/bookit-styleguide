@@ -1,3 +1,5 @@
 /node_modules
 .DS_Store
 *.css
+/catalog/react/picker/roompicker/RoomPicker.jsx
+/.gitignore

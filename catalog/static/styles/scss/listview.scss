@@ -11,5 +11,11 @@
         align-items: center;
         justify-content: space-between;
         padding: 10px 30px;
+
+        cursor: pointer;
+
+        &:hover{
+            background-color: $blue;
+        }
     }
 }

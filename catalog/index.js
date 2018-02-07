@@ -78,7 +78,8 @@ const pages = [
                 title: "Header",
                 styles: ['styles/css/header.css'],
                 imports: {
-                    MyBookingHeader: require('./react/header/myBookingHeader.jsx')
+                    MyBookingHeader: require('./react/header/myBookingHeader.jsx'),
+                    BookablesHeader: require('./react/header/bookablesHeader.jsx')
                 },
                 content: pageLoader(() =>
                     import ("./components/HEADERS.md"))

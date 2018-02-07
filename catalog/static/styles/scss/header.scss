@@ -4,4 +4,19 @@
 .mybookingHeader {
     font-family: Helvetica Neue;
     color: $blackish;
+    display: flex;
+    text-align: center;
+    
+    img{
+        width: 40px;
+        height: auto;
+    }
+    
+    h2 {
+        margin-left: 20px;
+    }
+}
+
+.header_wrapper{
+    flex-direction: row;
 }

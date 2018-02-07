@@ -17,3 +17,9 @@ plain:true
 <RoomPicker /> 
 ```
 
+```react
+plain:true
+---
+<WeekSpinner /> 
+```
+

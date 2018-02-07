@@ -15,10 +15,10 @@ const ListView = ({
         {
             name: "Green Room",
             closed: true,
-            reason: 'Out of beer!'
+            reason: 'Booked'
         },
         {
-            name: "Fun Room",
+            name: "Yellow Room",
             closed: true,
             reason: 'Not bookable'
         }

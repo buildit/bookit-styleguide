@@ -13,9 +13,14 @@
         padding: 10px 30px;
 
         cursor: pointer;
+        
+        h4{
+            font-family:Helvetica Neue;
+            font-weight: 400;
+        }
 
         &:hover{
-            background-color: $blue;
+            background-color: $hoverblue;
         }
     }
 }

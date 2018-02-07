@@ -2,15 +2,12 @@ import React from 'react'
 
 
 const MyBookingHeader = ({}) => (
-    <div className="mybookingHeader">
-          <h2>My Bookings</h2>
-          <div className="cancel">
-            <img src='../../../images/close.svg' alt="Close booking form and go back home" />
-        </div>
-    </div>
-    
+    <div className="myBookingHeader">
+        <h2>My Bookings</h2>
+        <img src='../../../images/close.svg' alt="Close booking form and go back home" />
+    </div>    
     )
     
     
     
-export default MyBookingHeader
+export default MyBookingHeader 

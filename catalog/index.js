@@ -78,8 +78,7 @@ const pages = [
                 title: "Header",
                 styles: ['styles/css/header.css'],
                 imports: {
-                    ActiveHeader: require('./react/header/ActiveHeader.jsx'),
-                    InactiveHeader: require ('./react/header/InactiveHeader.jsx')
+                    MyBookingHeader: require('./react/header/myBookingHeader.jsx')
                 },
                 content: pageLoader(() =>
                     import ("./components/HEADERS.md"))
@@ -101,7 +100,7 @@ const pages = [
                 imports: {
                     DatePicker: require('./react/picker/datepicker/DatePicker.jsx'),
                     TimePicker: require('./react/picker/timepicker/TimePicker.jsx'),
-                    RoomPicker: require('./react/picker/roompicker/RoomPicker.jsx')                    
+                    RoomPicker: require('./react/picker/roompicker/RoomPicker.jsx')
                 },
                 content: pageLoader(() =>
                     import ("./components/PICKERS.md"))
@@ -124,9 +123,24 @@ const pages = [
                     ListView: require('./react/listview/ListView.jsx')
                 },
                 content: pageLoader(() =>
-                    import("./components/LISTVIEW.md")
+                    import ("./components/LISTVIEW.md")
                 )
-            }
+            },
+            
+            {
+                path: "/components/bookingcard",
+                title: "Booking Card",
+                styles: ['styles/css/bookingcard.css'],
+                imports: {
+                    GreenMyBookingHeader: require('./react/booking-card/greenMyBookingHeader.jsx'),
+                    GrayMyBookingHeader: require('./react/booking-card/grayMyBookingHeader.jsx')
+                },
+                content: pageLoader(() =>
+                    import ("./components/BOOKINGCARD.md")
+                )
+            },
+            
+
     ]
   },
     {

@@ -1,26 +1,7 @@
 //header styles
-.heading {
-    background-color: #068b80;
-}
+@import 'global/colors';
 
-.title {
-    color: white;
+.mybookingHeader {
     font-family: Helvetica Neue;
-    font-weight: 400;
-    margin-left: 20px;
-    font-size: 14px;
-    padding: 10px;
-}
-
-.inactive_heading {
-    background-color: #d5d5d5;
-}
-
-.inactive_title {
-    color: white;
-    font-family: Helvetica Neue;
-    font-weight: 400;
-    margin-left: 20px;
-    font-size: 14px;
-    padding: 10px;
+    color: $blackish;
 }

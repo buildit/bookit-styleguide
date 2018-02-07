@@ -1,7 +1,7 @@
 import React from 'react'
 
 
-const InactiveHeader = ({}) => (
+const GrayMyBookingHeader = ({}) => (
 <div className="inactive_bookings">
         <div className="inactive_heading">
           <h2 className="inactive_title">TUES - TUES FEB 6</h2>
@@ -11,4 +11,4 @@ const InactiveHeader = ({}) => (
     
     
     
-export default InactiveHeader
+export default GrayMyBookingHeader

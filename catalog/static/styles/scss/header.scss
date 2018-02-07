@@ -1,23 +1,19 @@
 //header styles
 @import 'global/colors';
 
-.mybookingHeader {
-    font-family: Helvetica Neue;
-    color: $blackish;
+.myBookingHeader {
     display: flex;
-    text-align: center;
+    flex-direction: row;
+    font-family: 'Helvetica Neue', sans-serif;
+    color: $blackish;
     
     img{
         width: 40px;
-        height: auto;
+        margin-right: 2%;
     }
     
     h2 {
-        margin-left: 20px;
+        flex: 1;
+        text-align: center;
     }
-}
-
-.header_wrapper{
-    flex-direction: row;
-    align-content: space-around;
 }

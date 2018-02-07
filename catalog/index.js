@@ -100,8 +100,7 @@ const pages = [
                 imports: {
                     DatePicker: require('./react/picker/datepicker/DatePicker.jsx'),
                     TimePicker: require('./react/picker/timepicker/TimePicker.jsx'),
-                    RoomPicker: require('./react/picker/roompicker/RoomPicker.jsx'),
-                    WeekSpinner: require('./react/picker/weekspinner/WeekSpinner.jsx')
+                    RoomPicker: require('./react/picker/roompicker/RoomPicker.jsx')
                 },
                 content: pageLoader(() =>
                     import ("./components/PICKERS.md"))

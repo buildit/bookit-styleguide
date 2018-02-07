@@ -1,0 +1,27 @@
+
+.timepicker-field {
+    font-family: Helvetica Neue;
+    margin-top: 10px;
+
+
+    label {
+        color: black; 
+        font-size: 14px;
+        color: #c5c5c5;
+        margin-left: 20px;
+    }
+}
+
+.tpinput {
+    display: block;
+
+    input {
+    padding: 20px 10px;
+    font-size: 14px;
+    border: 1px solid #e6e8ed;
+    border-radius: 4px;
+    margin-top: 10px;
+    margin-left: 20px;
+    font-family: Helvetica Neue;
+        }
+}

@@ -97,11 +97,12 @@ const pages = [
             {
                 path: "/components/pickers",
                 title: "Picker",
-                styles: ['styles/css/roompicker.css', 'styles/css/datepicker.css'],
+                styles: ['styles/css/roompicker.css', 'styles/css/datepicker.css', 'styles/css/timepicker.css', 'styles/css/weekspinner.css'],
                 imports: {
                     DatePicker: require('./react/picker/datepicker/DatePicker.jsx'),
                     TimePicker: require('./react/picker/timepicker/TimePicker.jsx'),
-                    RoomPicker: require('./react/picker/roompicker/RoomPicker.jsx')
+                    RoomPicker: require('./react/picker/roompicker/RoomPicker.jsx'),
+                    WeekSpinner: require('./react/picker/weekspinner/WeekSpinner.jsx')
                 },
                 content: pageLoader(() =>
                     import ("./components/PICKERS.md"))

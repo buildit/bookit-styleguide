@@ -1,19 +1,25 @@
 
 ```react
-plain:true
+plain: true
 ---
 <DatePicker></DatePicker>
 ```
 
 ```react
-plain:true
+plain: true
 ---
 <TimePicker />
 ```
 
 ```react
-plain:true
+plain: true
 ---
 <RoomPicker /> 
+```
+
+```react
+plain: true
+---
+<WeekSpinner /> 
 ```
 

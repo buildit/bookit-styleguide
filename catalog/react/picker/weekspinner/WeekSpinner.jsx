@@ -1,23 +1,43 @@
-// import React from 'react'
+import React from 'react'
 
-// // import { getPreviousAndNextWeekDates, formatWeek } from '../../../utils/dates-times.js'
+import { getPreviousAndNextWeekDates, formatWeek, formatDate } from '../../../utils/dates-times.js'
 
-// const WeekSpinner = ({ weekOf, onClick }) => {
-//     const [previousWeek, nextWeek] = getPreviousAndNextWeekDates(weekOf)
+export class WeekSpinner extends React.Component {
+    constructor(props) {
+        super(props)
 
-//     return (
-//         <div className='container'>
-//             <div className='controls'>
-//                 <span onClick={() => onClick(previousWeek)} id="previous">&#12296;</span>
-//             </div>
-//             <div className='week'>
-//                 <h3>{formatWeek(weekOf)}</h3>
-//             </div>
-//             <div className='controls'>
-//                 <span onClick={() => onClick(nextWeek)} id="next">&#12297;</span>
-//             </div>
-//         </div>
-//     )
-// }
+        this.state = {
+            viewingDate: formatDate(new Date),
+        }
 
-// export default WeekSpinner
+        this.updateViewingDate = this.updateViewingDate.bind(this)
+    }
+
+
+    updateViewingDate = date => this.setState({ viewingDate: date });
+
+    render() {
+        const { viewingDate } = this.state
+        const [previousWeek, nextWeek] = getPreviousAndNextWeekDates(viewingDate)
+
+        return (
+            <div className='weekSpinner'>
+                <div className='controls' onClick={() => this.updateViewingDate(previousWeek)}>
+                    <span id="previous">&#12296;</span>
+                </div>
+                <div className='week'>
+                    <p>{formatWeek(viewingDate)}</p>
+                </div>
+                <div className='controls' onClick={() => this.updateViewingDate(nextWeek)}>
+                    <span  id="next">&#12297;</span>
+                </div>
+            </div>
+        )
+    }
+}
+
+WeekSpinner.defaultProps = {
+    weekOf: formatDate(new Date)
+};
+
+export default WeekSpinner

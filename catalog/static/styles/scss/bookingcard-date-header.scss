@@ -1,0 +1,27 @@
+//header styles
+.booking-card-date-header{
+    background-color: #d5d5d5;
+
+    .title {
+        color: white;
+        font-family: Helvetica Neue;
+        font-weight: 400;
+        margin-left: 20px;
+        font-size: 14px;
+        padding: 10px;
+    }
+
+    &.isToday{
+        background-color: #068b80;
+
+        .title{
+            color: white;
+            font-family: Helvetica Neue;
+            font-weight: 400;
+            margin-left: 20px;
+            font-size: 14px;
+            padding: 10px;
+        }
+    }
+
+}

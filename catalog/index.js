@@ -130,18 +130,18 @@ const pages = [
             },
             
             {
-                path: "/components/bookingcard",
-                title: "Booking Card",
-                styles: ['styles/css/bookingcard.css'],
+                path: "/components/collection",
+                title: "Booking Card Collection",
+                styles: ['styles/css/bookingcard.css','styles/css/bookingcard-collection.scss','styles/css/bookingcard-date-header.css'],
                 imports: {
-                    GreenMyBookingHeader: require('./react/booking-card/greenMyBookingHeader.jsx'),
-                    GrayMyBookingHeader: require('./react/booking-card/grayMyBookingHeader.jsx')
+                    BookingCardCollection: require('./react/booking-card-collection/BookingCardCollection.jsx'),
+                    BookingCardDateHeader: require('./react/booking-card-collection/BookingCardDateHeader.jsx'),
+                    BookingCard: require('./react/booking-card-collection/BookingCard.jsx')
                 },
                 content: pageLoader(() =>
-                    import ("./components/BOOKINGCARD.md")
+                    import ("./components/BOOKINGCARDCOLLECTION.md")
                 )
             },
-            
 
     ]
   },

@@ -1,5 +1,5 @@
 @import 'global/colors';
-
+@import 'global/typography';
 
 .bookingCard{
     display: inline-block;
@@ -11,6 +11,6 @@
 
     p,h4{
         margin: 0;
-        font-family: Helvetica Neue;
+        font-family: $base-font-family;
     }
 }

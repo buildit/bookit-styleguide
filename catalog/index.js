@@ -89,7 +89,9 @@ const pages = [
                 title: "Notifications & Error Messages",
                 styles: ['styles/css/notifications.css'],
                 imports: {
-                    InputError: require('./react/notifications/input-error.jsx')
+                    InputError: require('./react/notifications/input-error.jsx'),
+                    SuccessNotification: require('./react/notifications/SuccessNotification.jsx'),
+                    ErrorNotification: require('./react/notifications/ErrorNotification.jsx'),
                 },
                 content: pageLoader(() =>
                     import ("./components/NOTIFICATIONS.md"))

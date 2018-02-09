@@ -6,7 +6,7 @@ const BookingCard = ({time, title, room }) => {
         <div className="bookingCard">
             <p>{time}</p>
             <p>{title}</p>
-            <h4>{room}</h4>
+            <p>{room}</p>
         </div>
     )
 }

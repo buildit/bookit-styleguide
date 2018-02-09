@@ -16,7 +16,7 @@ const BookingCardCollection = ({
         },
         {
             time: '10:00 AM - 12:30 PM',
-            title: 'Client Workshop: "Creating long titles to for technical reasons"',
+            title: 'Client Workshop: "Creating long titles for technical reasons"',
             room: 'Blue Room (NYC)'
         }
     ],

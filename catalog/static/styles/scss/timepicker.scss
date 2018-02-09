@@ -1,6 +1,7 @@
+@import 'global/typography';
 
 .timepicker-field {
-    font-family: 'Helvetica Neue', sans-serif;
+    font-family: $base-font-family;
     margin: 10px;
 
     label {
@@ -21,6 +22,6 @@
     border-radius: 4px;
     margin-top: 10px;
     margin-left: 20px;
-    font-family: Helvetica Neue;
+    font-family: $base-font-family;
         }
 }

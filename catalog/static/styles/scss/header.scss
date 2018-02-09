@@ -1,10 +1,11 @@
 //header styles
 @import 'global/colors';
+@import 'global/typography';
 
 .myBookingHeader {
     display: flex;
     flex-direction: row;
-    font-family: 'Helvetica Neue', sans-serif;
+    font-family: $base-font-family;
     color: $blackish;
     
     img{
@@ -23,7 +24,7 @@
 .bookablesheader {
     display: flex;
     flex-direction: row;
-    font-family: 'Helvetica Neue', sans-serif;
+    font-family: $base-font-family;
     color: $blackish;
     
     img{

@@ -1,4 +1,6 @@
+
 @import 'global/typography';
+@import 'global/colors';
 
 .errorInput {
     input {
@@ -17,6 +19,7 @@
         font-size: 14px;
         color: #c5c5c5;
         font-family: $base-font-family;
+
         margin-left: 20px;
     }
 
@@ -28,6 +31,43 @@
         margin-top: 5px;
         font-family: $base-font-family;
 
+
     }
 }
+
+.success-notif, .error-notif{
+    .trigger{
+        border-radius: 2px;
+        border: none;
+        color: #ffffff;
+        cursor: pointer;
+        font-size: 18px;
+        line-height: 18px;
+        margin-top: 20px;
+        margin-left: 20px;
+        padding: 20px 0px;
+        width: 60%;
+        font-family: $base-font-family;
+    }
+
+    p{
+        color: $black;
+        font-size: 14px;
+        margin-left: 25px;
+    }
+}
+
+.success-notif{
+    .trigger{
+        background-color: $green;
+    }
+    
+}
+
+.error-notif{
+    .trigger{
+        background-color: $red;
+    }
+}
+
 
